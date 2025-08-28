@@ -4,7 +4,20 @@ Repositorio con mis experimentos y notebooks para la clásica competencia de Kag
 El objetivo es predecir qué pasajeros sobrevivieron al hundimiento del Titanic usando distintos algoritmos de Machine Learning.
 
 ## 📂 Estructura del repositorio
-kaggle-titanic/ │── data/ # datasets oficiales (train, test, sample submission) │ ├── train.csv │ ├── test.csv │ ├── gender_submission.csv │ └── README.md │ │── notebooks/ # notebooks de experimentos │ └── EPA_TITANIC_KNN.ipynb # baseline con KNN + GridSearch │ │── .gitignore # ignora checkpoints, submissions, modelos pesados │── LICENSE # licencia del proyecto (opcional) │── README.md # este archivo
+kaggle-titanic/
+├── data/                      # datasets oficiales (train, test, sample submission)
+│   ├── train.csv
+│   ├── test.csv
+│   ├── gender_submission.csv
+│   └── README.md
+│
+├── notebooks/                 # notebooks de experimentos
+│   └── EPA_TITANIC_KNN.ipynb  # baseline con KNN + GridSearch
+│
+├── .gitignore                 # ignora checkpoints, submissions, modelos pesados
+├── LICENSE                    # licencia del proyecto (opcional)
+└── README.md                  # este archivo
+
 
 ## 🧪 Resultados hasta ahora
 - **Notebook:** `EPA_TITANIC_KNN.ipynb`  
